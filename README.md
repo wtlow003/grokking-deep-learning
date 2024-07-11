@@ -30,11 +30,14 @@ That being said, this repository will document my step-by-step journey of gettin
 >
 > I intend to bombard this section with daily logs of my learning journey. If you're reading this from the future at the end of my 100-day challenge, be prepared to scroll through quite a bit of content.
 
+1. `Day 1`, 11 July 2024: 
+    - Understanding Stable Diffusion from scratch
+    - Commits: [1]()
 
-<div align="center">
+        | Resources |
+        | --- |
+        | https://www.youtube.com/watch?v=ZBKpAp_6TGI |
+        | https://scholar.harvard.edu/files/binxuw/files/stable_diffusion_a_tutorial.pdf |
+        | https://jalammar.github.io/illustrated-stable-diffusion/ |
 
-| Day      |      Learnings     |  Resources |
-|----------|:------------------:|-----------:|
-| 1 | |  |
 
-</div>
