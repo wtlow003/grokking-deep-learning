@@ -14,7 +14,9 @@
 
 > [!NOTE]
 >
-> Inspired by [@moolmohino](https://www.youtube.com/@moolmohino), I have embarked on a similar journey, committing 1-2 hours daily over the next 100 days to deepen my intuition in deep learning.
+> Inspired by [@moolmohino](https://www.youtube.com/@moolmohino), I have embarked on a similar journey, committing 1-2 hours daily over the next ? days to deepen my intuition in deep learning.
+
+- Initially, I was motivated to go for a 100-day challenge. But life happens, so I am now going to continue in a disciplined manner instead.
 
 In short, I grew tired of simply building Generative AI applications and managing LLM operations in my current role. The routine of calling an API without deeply understanding the process often frustrates me.
 
@@ -22,12 +24,20 @@ I started this repository for my personal growth as I [learn in public](https://
 
 Instead, I have always been drawn to more math-related aspects of the field — despite having purposefully avoided math for the longest time due to some secondary school "trauma".
 
-That being said, this repository will document my step-by-step journey of getting hands-on experience and building models from scratch. I'll be diving deep into the math from research papers, experiencing plenty of mind-blowing moments along the way, and likely talking to GPT more than I talk to my partner over the next 100 days.
+That being said, this repository will document my step-by-step journey of getting hands-on experience and building models from scratch. I'll be diving deep into the math from research papers, experiencing plenty of mind-blowing moments along the way, and likely talking to GPT more than I talk to my partner over the entire process.
 
 ## Logs
 
 > [!WARNING]
 >
-> I intend to bombard this section with daily logs of my learning journey. If you're reading this from the future at the end of my 100-day challenge, be prepared to scroll through quite a bit of content.
+> I intend to bombard this section with daily logs of my learning journey. If you're reading this from the future at the end of my challenge, be prepared to scroll through quite a bit of content.
 
 
+- **Day 1**: Exploring Vision Language Model [[PaliGemma]](https://huggingface.co/blog/paligemma).
+    - Implemented (partial) Siglip Model [Contrastive Vision Encoder].
+        - Siglip configurations
+        - Siglip vision embeddings
+    - Paper backlogs: 
+        - [ ] [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020)
+        - [ ] [Sigmoid Loss for Language Image Pre-Training](https://arxiv.org/abs/2303.15343)
+        - [ ] [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)
