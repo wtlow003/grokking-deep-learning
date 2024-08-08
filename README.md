@@ -33,7 +33,7 @@ That being said, this repository will document my step-by-step journey of gettin
 > I intend to bombard this section with daily logs of my learning journey. If you're reading this from the future at the end of my challenge, be prepared to scroll through quite a bit of content.
 
 
-- **Day 1**: Exploring Vision Language Model [[PaliGemma]](https://huggingface.co/blog/paligemma).
+- **Day 1, 07/08/24**: Exploring Vision Language Model [[PaliGemma]](https://huggingface.co/blog/paligemma).
     - Implemented (partial) Siglip Model [Contrastive Vision Encoder].
         - Siglip configurations
         - Siglip vision embeddings
@@ -41,3 +41,12 @@ That being said, this repository will document my step-by-step journey of gettin
         - [ ] [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020)
         - [ ] [Sigmoid Loss for Language Image Pre-Training](https://arxiv.org/abs/2303.15343)
         - [ ] [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)
+- **Day 2, 08/08/24**: Exploring Vision Language Model [[PaliGemma]](https://huggingface.co/blog/paligemma).
+    - Implemented (completed) Siglip Model [Contrastive Vision Encoder].
+        - Siglip Multi-headed Attention
+        - Siglig Encoder and Layers
+    - Implemented (partial) PaliGemma Model [Input Processor]
+        - Image Processor
+        - Text Processor
+    - Paper backlogs:
+        - [ ] [Layer Normalization](https://arxiv.org/pdf/1607.06450v1)
