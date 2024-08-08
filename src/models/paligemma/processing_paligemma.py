@@ -39,9 +39,7 @@ def resize(
     return resized_image
 
 
-def rescale(
-    image: np.ndarray, scale: float, dtype: Optional[np.dtype] = None
-) -> np.ndarray:
+def rescale(image: np.ndarray, scale: float, dtype: np.dtype) -> np.ndarray:
     """
     Rescale the image to the given scale.
 
@@ -92,7 +90,8 @@ def process_images(
     images: List[np.ndarray] = [np.array(image) for image in images]
     # rescale pixel values to be in range [0, 1]
     images = [
-        rescale(image, scale=rescale_factor, dtype=np.float32) for image in images  # type: ignore
+        rescale(image, scale=rescale_factor, dtype=np.float32)  # type: ignore
+        for image in images
     ]
     # normalize the images
     images = [normalize(image, mean=image_mean, std=image_std) for image in images]
